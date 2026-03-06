@@ -326,8 +326,14 @@ tree_root = SubResource("AnimationNodeStateMachine_vikuh")
 anim_player = NodePath("../MenuAnimationPlayer")
 parameters/conditions/intro_done = false
 
+[node name="BackgroundMusicPlayer" parent="." index="3" unique_id=1141822549]
+bus = &"Master"
+
 [node name="TitleContainer" parent="MenuContainer/TitleMargin" parent_id_path=PackedInt32Array(2112060331) index="0" unique_id=556427956]
 modulate = Color(1, 1, 1, 0)
+
+[node name="TitleLabel" parent="MenuContainer/TitleMargin/TitleContainer" index="0" unique_id=359406872]
+text = "HCD 2D Game"
 
 [node name="SubTitleContainer" parent="MenuContainer/SubTitleMargin" parent_id_path=PackedInt32Array(1510335937) index="0" unique_id=930520368]
 modulate = Color(1, 1, 1, 0)
@@ -340,6 +346,9 @@ lock = true
 
 [node name="VersionContainer" parent="VersionMargin" parent_id_path=PackedInt32Array(1732528471) index="0" unique_id=1603969262]
 modulate = Color(1, 1, 1, 0)
+
+[node name="VersionLabel" parent="VersionMargin/VersionContainer" index="0" unique_id=793266470]
+text = "v0.0.2"
 
 [node name="MouseFilter" type="Control" parent="." index="8" unique_id=33285267]
 layout_mode = 1

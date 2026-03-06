@@ -14,8 +14,8 @@ compatibility/default_parent_skeleton_in_mesh_instance_3d=true
 
 [application]
 
-config/name="Tutorial-Platformer"
-run/main_scene="res://Assets/Scenes/Areas/area_1.tscn"
+config/name="HCD 2D Game"
+run/main_scene="uid://c63y6b25bs4bk"
 config/features=PackedStringArray("4.6", "Forward Plus")
 config/icon="res://icon.svg"
 
